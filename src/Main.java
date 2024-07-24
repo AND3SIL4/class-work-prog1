@@ -1,10 +1,11 @@
-import java.util.Scanner;
+import classes.Arrays;
+import classes.BiDimensionalArray;
 
 public class Main {
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    System.out.println("Code running...");
 
-    System.out.print("Type something: ");
-    String some = scanner.nextLine();
+    Arrays.main();
+    BiDimensionalArray.main();
   }
 }
